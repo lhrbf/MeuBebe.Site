@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+    <link href="../assets/styles/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Meu Bebê</title>
@@ -17,20 +17,108 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav me-auto gap-2 mb-2 mb-lg-0 fs-4">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contato</a>
-                  </li>
                     <li class="nav-item">
                       <a class="nav-link text-white" href="#">Espaço</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-white" href="#">Serviços</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Contato</a>
+                    </li>
                   </ul>
               </div>
             </div>
           </nav>
     </header>
+    <main>
+      <div class="container-fluid bg-body-secondary mb-3"></div>
+      <!---->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner container interno my-3">
+          <div class="card mb-2">
+            <div class="card-header bg-info fs-3 text-center text-white">
+              Ambiente Interno
+            </div>
+          </div>
+          <div class="carousel-item active shadow rounded">
+            <img src="../assets/img/MS.Site.jpeg" class="d-block w-100 rounded" alt="...">
+          </div>
+          <div class="carousel-item shadow">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item shadow">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner container externo mb-4">
+            <div class="card mb-2">
+              <div class="card-header bg-info text-white fs-3 text-center">
+                Ambiente Externo
+              </div>
+            </div>
+            <div class="carousel-item active shadow rounded">
+              <img src="../assets/img/MS.Site.jpeg" class="d-block w-100 rounded" alt="...">
+            </div>
+            <div class="carousel-item shadow">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item shadow">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <!---->
+      <div class="container d-flex justify-content-center align-center my-5">
+        <div class="row w-100 d-flex justify-content-center align-center gap-2">
+            <ul class="list-group col-11 col-sm-11 col-md-5 fw-bold fs-5 p-0">
+              <li class="list-group-item list-group-item-info">Berçário</li>
+              <li class="list-group-item list-group-item-info">Hotelzinho</li>
+              <li class="list-group-item list-group-item-info">Ensino Fundamental I</li>
+              <li class="list-group-item list-group-item-info">Reforço Escolar</li>
+            </ul> 
+            <ul class="list-group col-11 col-sm-11 col-md-5 fw-bold fs-5 p-0">
+              <li class="list-group-item list-group-item-info">Judô</li>
+              <li class="list-group-item list-group-item-info">Ballet</li>
+              <li class="list-group-item list-group-item-info">Natação</li>
+              <li class="list-group-item list-group-item-info">Colônia de Férias</li>
+            </ul>
+        </div>
+      </div>
+      <!---->
+      
+    </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
